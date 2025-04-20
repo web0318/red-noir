@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>장바구니 - RED NOIR</title>
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="RED NOIR 로고">
+      </a>
+    </h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="상품명을 입력하세요">
+    </div>
+    
+    <a href="cart.html" class="cart-icon">
+      <img src="images/bag.png" alt="장바구니">
+    </a>
+  </header>
+
+  <main class="cart-wrap">
+    <h1 class="cart-title">장바구니</h1>
+
+    <section class="cart-items">
+      <div id="product-list"></div> <!-- 장바구니 상품 리스트가 표시될 곳 -->
+    </section>
+
+    <section class="cart-summary">
+      <p>총 상품 금액: <span id="total-price">0</span>원</p>
+      <button class="checkout">구매하기</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="flogo">
+        <a href="index.html"><img src="images/flogo.png" alt="RED NOIR 로고"></a>
+      </div>
+      <div class="footer-bottom">
+        <ul class="fsns">
+          <li><a href="https://www.instagram.com/"><img src="images/sns1.png" alt="인스타그램"></a></li>
+          <li><a href="https://www.youtube.com/"><img src="images/sns2.png" alt="유튜브"></a></li>
+          <li><a href="https://x.com/"><img src="images/sns3.png" alt="트위터"></a></li>
+        </ul>
+        <div class="footer-links">
+          <a href="#">About</a> | 
+          <a href="#">Terms</a> | 
+          <a href="#">Privacy</a> | 
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascript/cart.js"></script>
+</body>
+</html>
